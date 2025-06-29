@@ -563,7 +563,7 @@
 	"variable": [
 		{
 			"key": "token",
-			"value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzQsInJvbGUiOiJtYW5hZ2VyIiwiaWF0IjoxNzUxMjA0NjgyLCJleHAiOjE3NTEyOTEwODJ9.XfQ0A6xpW3Ld8amliUUPZ0i4Xf45p_xnv_QJnijLw3Y",
+			"value": "\"{token}",
 			"type": "default"
 		}
 	]
