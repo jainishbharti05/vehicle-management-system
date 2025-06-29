@@ -23,7 +23,6 @@ The API will be available at http://localhost:3000
 
 ### Local Development
 ```bash
-cp .env.example .env
 npm install
 npm run dev
 ```
@@ -35,5 +34,3 @@ npm run dev
 ## Audit Logging
 All key actions (user registration, vehicle creation, service scheduling, status updates) are logged for auditing.
 
-## License
-MIT
