@@ -1,0 +1,51 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Husky and lint-staged
+.husky/_/
+
+# Copilot instructions
+.github/copilot-instructions.md
+
+# Test coverage
+coverage/
+
+# Misc
+*.tgz
+.idea/
+.vscode/
+
+# Build output
+dist/
+build/
+
+# Ignore lock files if not needed
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore database config and dumps
+*.sqlite
+*.db
+*.dump
+
+# Ignore system files
+*.swp
+*.swo
+
+/generated/prisma

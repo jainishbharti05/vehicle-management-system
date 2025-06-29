@@ -1,0 +1,8 @@
+# Use an official Node runtime as a parent image
+FROM node:20-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --omit=dev
+COPY . .
+EXPOSE 3000
+CMD ["node", "index.js"]
